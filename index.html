@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>GerüstDex — Gerüstprüfung nach TRBS 2121-1 rechtssicher dokumentieren</title>
   <meta name="description" content="Gerüstprüfung nach TRBS 2121-1 &amp; DGUV Information 201-011 gerichtsfest dokumentieren: 12-Punkte-Checkliste, Ampelverfahren, GPS-Stempel, Beweisfotos, Mängel-Management und PDF-Prüfbericht. Für Gerüstbauer, Dachdecker, Maler und Bauunternehmen in DACH." />
-  <meta name="theme-color" content="#E7EFEC" />
+  <meta name="theme-color" content="#0F1715" />
   <!-- seo:start -->
   <link rel="icon" type="image/png" href="/geruestdex-icon.png" />
   <link rel="canonical" href="https://geruestdex.dexware.app/" />
@@ -29,12 +29,12 @@
        weiche weiße Karten. Bewusst OHNE die Sticker-/Marker-/Wellen-Elemente der
        anderen Dex-Landings. */
     :root {
-      --bg: #E7EFEC; --card: #F8FBFA; --ink: #16211F; --muted: #586764; --soft: #D5E1DD;
+      --bg: #0F1715; --card: #17211E; --ink: #E9F1EE; --muted: #9AABA5; --soft: #243430;
       --teal: #14B8A6; --teal-deep: #0D9488; --teal-dark: #0F766E; --teal-ink: #0B4A44;
       --teal-soft: #D9F4EF; --mint: #99F6E4;
       --gruen: #16A34A; --orange: #EA580C; --rot: #DC2626;
-      --shadow: 0 14px 40px -18px rgba(15, 60, 54, .25);
-      --shadow-sm: 0 8px 24px -14px rgba(15, 60, 54, .22);
+      --shadow: 0 18px 44px -18px rgba(0, 0, 0, .55);
+      --shadow-sm: 0 10px 26px -14px rgba(0, 0, 0, .45);
     }
     * { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
@@ -44,19 +44,19 @@
       line-height: 1.65; -webkit-font-smoothing: antialiased; overflow-x: hidden;
     }
     .wrap { max-width: 1080px; margin: 0 auto; padding: 0 24px; }
-    a { color: var(--teal-deep); }
+    a { color: var(--teal); }
 
     /* Kopf: hell, luftig, ohne harte Linien */
-    .sitehead { position: sticky; top: 0; z-index: 50; background: rgba(231,239,236,.85);
+    .sitehead { position: sticky; top: 0; z-index: 50; background: rgba(15,23,21,.85);
       -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px); }
     header { padding: 16px 0; display: flex; align-items: center; gap: 12px; }
     .logo { width: 42px; height: 42px; border-radius: 12px; overflow: hidden; box-shadow: var(--shadow-sm); }
     .logo img { width: 100%; height: 100%; display: block; }
     .brand { font-size: 20px; font-weight: 800; letter-spacing: -0.3px; }
-    .brand b { color: var(--teal-deep); }
-    .head-cta { margin-left: auto; font-size: 14px; font-weight: 700; color: var(--teal-deep);
-      text-decoration: none; background: var(--teal-soft); padding: 9px 16px; border-radius: 999px; }
-    .head-cta:hover { background: var(--mint); }
+    .brand b { color: var(--teal); }
+    .head-cta { margin-left: auto; font-size: 14px; font-weight: 700; color: var(--mint);
+      text-decoration: none; background: #143D37; padding: 9px 16px; border-radius: 999px; }
+    .head-cta:hover { background: #1B4A42; }
     @media (max-width: 560px) { .head-cta { display: none; } }
 
     /* Hero: großes Teal-Verlauf-Panel mit Illustration */
@@ -127,30 +127,30 @@
 
     /* Sektionen */
     section { padding: 58px 0 8px; }
-    .eyebrow { color: var(--teal-deep); font-size: 13px; font-weight: 850; letter-spacing: 1.6px;
+    .eyebrow { color: var(--teal); font-size: 13px; font-weight: 850; letter-spacing: 1.6px;
       text-transform: uppercase; margin-bottom: 8px; }
     h2 { font-size: clamp(24px, 3.4vw, 32px); font-weight: 830; letter-spacing: -0.6px; margin-bottom: 8px; }
     .lead { color: var(--muted); font-size: 16px; max-width: 640px; margin-bottom: 28px; }
 
     /* 12 Prüfpunkte: weiche Chips */
     .points { display: grid; gap: 10px; grid-template-columns: repeat(auto-fill, minmax(235px, 1fr)); }
-    .point { display: flex; gap: 12px; align-items: center; background: var(--card);
+    .point { display: flex; gap: 12px; align-items: center; background: var(--card); border: 1px solid var(--soft);
       border-radius: 999px; padding: 10px 18px 10px 10px; font-size: 14px; font-weight: 650;
       box-shadow: var(--shadow-sm); }
     .point i { font-style: normal; width: 34px; height: 34px; border-radius: 50%; flex: none;
-      display: grid; place-items: center; background: var(--teal-soft); color: var(--teal-dark);
+      display: grid; place-items: center; background: #143D37; color: var(--mint);
       font-size: 13px; font-weight: 800; }
     .points-note { margin-top: 18px; font-size: 13.5px; color: var(--muted); }
 
     /* Feature-Karten: weiß, weich, runde Icon-Kacheln */
     .grid { display: grid; gap: 18px; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); }
-    .card { background: var(--card); border-radius: 20px; padding: 26px 24px;
+    .card { background: var(--card); border: 1px solid var(--soft); border-radius: 20px; padding: 26px 24px;
       box-shadow: var(--shadow-sm); transition: transform .18s ease, box-shadow .18s ease; }
     .card:hover { transform: translateY(-4px); box-shadow: var(--shadow); }
     .card .chip { width: 50px; height: 50px; border-radius: 14px; display: grid; place-items: center;
-      font-size: 24px; margin-bottom: 14px; background: var(--teal-soft); }
-    .card:nth-child(3n+2) .chip { background: #FEF3C7; }
-    .card:nth-child(3n) .chip { background: #E0EAFF; }
+      font-size: 24px; margin-bottom: 14px; background: #143D37; }
+    .card:nth-child(3n+2) .chip { background: #3E3620; }
+    .card:nth-child(3n) .chip { background: #232C45; }
     .card h3 { font-size: 17px; font-weight: 780; margin-bottom: 6px; }
     .card p { font-size: 14.5px; color: var(--muted); }
     .dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 2px; }
@@ -159,7 +159,7 @@
     /* Ablauf: 3 Karten mit großen Teal-Kreisen */
     .steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
     @media (max-width: 780px) { .steps { grid-template-columns: 1fr; } }
-    .step { background: var(--card); border-radius: 20px; padding: 26px 24px; box-shadow: var(--shadow-sm); }
+    .step { background: var(--card); border: 1px solid var(--soft); border-radius: 20px; padding: 26px 24px; box-shadow: var(--shadow-sm); }
     .step .n { width: 46px; height: 46px; border-radius: 50%; margin-bottom: 14px;
       background: linear-gradient(135deg, var(--teal-deep), var(--teal)); color: #fff;
       font-weight: 850; font-size: 19px; display: grid; place-items: center; }
@@ -168,8 +168,8 @@
 
     /* Preise */
     .price-grid { display: grid; gap: 18px; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); max-width: 760px; }
-    .price { background: var(--card); border-radius: 22px; padding: 30px 28px; box-shadow: var(--shadow-sm); position: relative; }
-    .price.pro { background: linear-gradient(150deg, #0F766E, #0D9488 60%, #14B8A6); color: #fff; box-shadow: var(--shadow); }
+    .price { background: var(--card); border: 1px solid var(--soft); border-radius: 22px; padding: 30px 28px; box-shadow: var(--shadow-sm); position: relative; }
+    .price.pro { background: linear-gradient(150deg, #0F766E, #0D9488 60%, #14B8A6); border-color: transparent; color: #fff; box-shadow: var(--shadow); }
     .price h3 { font-size: 17px; font-weight: 800; }
     .price .amount { font-size: 40px; font-weight: 870; letter-spacing: -1.2px; margin: 10px 0 2px; }
     .price.pro .amount { color: var(--mint); }
@@ -219,7 +219,7 @@
 
     /* Familie */
     .promo-grid { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); }
-    .promo { display: flex; gap: 14px; align-items: center; background: var(--card);
+    .promo { display: flex; gap: 14px; align-items: center; background: var(--card); border: 1px solid var(--soft);
       border-radius: 16px; padding: 15px 16px; box-shadow: var(--shadow-sm);
       text-decoration: none; color: var(--ink); transition: transform .15s ease, box-shadow .15s ease; }
     .promo:hover { transform: translateY(-3px); box-shadow: var(--shadow); }
@@ -249,7 +249,7 @@
     .foot-inner { display: flex; flex-wrap: wrap; gap: 18px; justify-content: space-between;
       padding: 30px 0 46px; font-size: 13.5px; }
     .foot a { color: var(--ink); text-decoration: none; }
-    .foot a:hover { color: var(--teal-deep); }
+    .foot a:hover { color: var(--teal); }
     .foot nav { display: flex; gap: 16px; flex-wrap: wrap; }
   </style>
 </head>
@@ -501,7 +501,7 @@
   <div class="foot">
     <div class="wrap">
       <div class="foot-inner">
-        <span>© 2026 GerüstDex · Alexander Pfalz</span>
+        <span>© 2026 GerüstDex</span>
         <nav>
           <a href="impressum.html">Impressum</a>
           <a href="datenschutz.html">Datenschutz</a>
