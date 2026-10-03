@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Gerüstprüfung nach TRBS 2121-1: Wer prüft wann, was gehört ins Protokoll? | GerüstDex</title>
+  <meta name="description" content="Gerüstprüfung verständlich erklärt: Prüfung durch den Ersteller nach der Montage, Kontrolle durch den Nutzer vor der Benutzung, Prüfung nach Sturm. TRBS 2121-1, DGUV Information 201-011, Kennzeichnung, 12-Punkte-Checkliste und FAQ." />
+  <meta name="robots" content="all" />
+  <meta name="theme-color" content="#0F1715" />
+  <link rel="icon" type="image/png" href="/geruestdex-icon.png" />
+  <link rel="canonical" href="https://geruestdex.dexware.app/ratgeber-geruestpruefung.html" />
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="GerüstDex" />
+  <meta property="og:locale" content="de_DE" />
+  <meta property="og:title" content="Gerüstprüfung nach TRBS 2121-1: Wer prüft wann, was gehört ins Protokoll?" />
+  <meta property="og:description" content="Prüfung nach Montage, Kontrolle vor Benutzung, Prüfung nach Sturm: der Ratgeber zur Gerüstprüfung mit 12-Punkte-Checkliste und FAQ." />
+  <meta property="og:url" content="https://geruestdex.dexware.app/ratgeber-geruestpruefung.html" />
+  <meta property="og:image" content="https://geruestdex.dexware.app/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Gerüstprüfung nach TRBS 2121-1: Wer prüft wann, was gehört ins Protokoll?","description":"Prüfung durch den Ersteller nach der Montage, Kontrolle durch den Nutzer vor der Benutzung, Prüfung nach Sturm: TRBS 2121-1, DGUV Information 201-011, Kennzeichnung, Checkliste und FAQ.","image":"https://geruestdex.dexware.app/og-image.png","inLanguage":"de","datePublished":"2026-10-03","dateModified":"2026-10-03","author":{"@type":"Organization","name":"Dexware","url":"https://dexware.app/"},"publisher":{"@type":"Organization","name":"Dexware","url":"https://dexware.app/"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://geruestdex.dexware.app/ratgeber-geruestpruefung.html"}}</script>
+  <style>
+    :root {
+      --bg: #0F1715; --card: #17211E; --ink: #E9F1EE; --muted: #9AABA5; --soft: #243430;
+      --teal: #14B8A6; --teal-deep: #0D9488; --teal-dark: #0F766E; --teal-ink: #0B4A44;
+      --mint: #99F6E4; --line: #2A3B37;
+      --gruen: #16A34A; --orange: #EA580C; --rot: #DC2626;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      background: var(--bg); color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.7; -webkit-font-smoothing: antialiased; overflow-x: hidden;
+    }
+    .wrap { max-width: 820px; margin: 0 auto; padding: 0 24px; }
+    a { color: var(--teal); }
+
+    .sitehead { position: sticky; top: 0; z-index: 50; background: rgba(15,23,21,.88);
+      -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px); border-bottom: 1px solid var(--line); }
+    header { padding: 14px 0; display: flex; align-items: center; gap: 12px; }
+    .logo { width: 40px; height: 40px; border-radius: 11px; overflow: hidden; }
+    .logo img { width: 100%; height: 100%; display: block; }
+    .brand { font-size: 20px; font-weight: 800; letter-spacing: -0.3px; color: var(--ink); text-decoration: none; }
+    .brand b { color: var(--teal); }
+    .head-cta { margin-left: auto; font-size: 14px; font-weight: 700; color: var(--mint);
+      text-decoration: none; background: #143D37; padding: 9px 16px; border-radius: 999px; }
+    @media (max-width: 560px) { .head-cta { display: none; } }
+
+    .crumb { font-size: 13px; color: var(--muted); margin: 26px 0 4px; font-weight: 600; }
+    .crumb a { color: var(--teal); text-decoration: none; }
+    .eyebrow { color: var(--teal); font-size: 13px; font-weight: 900; letter-spacing: 1.4px; text-transform: uppercase; margin: 30px 0 8px; }
+    article { padding-bottom: 20px; }
+    h1 { font-size: clamp(28px, 4.6vw, 42px); font-weight: 900; letter-spacing: -1px; line-height: 1.12; margin: 6px 0 14px; }
+    h1 .hl { color: var(--mint); }
+    .stand { color: var(--muted); font-size: 13px; margin-bottom: 26px; }
+    .intro { font-size: 18px; color: var(--muted); margin-bottom: 8px; }
+    .intro strong { color: var(--ink); }
+    h2 { font-size: clamp(22px, 3.4vw, 28px); font-weight: 900; letter-spacing: -0.6px; margin: 40px 0 10px; }
+    h3 { font-size: 18px; font-weight: 800; margin: 24px 0 6px; }
+    p { font-size: 16px; margin-bottom: 14px; color: #C9D6D2; }
+    article ul, article ol { padding-left: 22px; margin: 4px 0 16px; }
+    article li { font-size: 16px; margin-bottom: 7px; color: #C9D6D2; }
+    strong { color: var(--ink); }
+
+    .blatt { background: var(--card); border: 1px solid var(--line); border-left: 5px solid var(--teal);
+      border-radius: 12px; padding: 20px 22px; margin: 20px 0; }
+    .blatt.b2 { border-left-color: var(--mint); }
+    .blatt.b3 { border-left-color: var(--orange); }
+    .blatt h3 { margin-top: 0; }
+
+    .norms { display: flex; flex-wrap: wrap; gap: 8px; margin: 6px 0 20px; }
+    .norm { font-size: 12.5px; font-weight: 800; color: var(--mint); background: #143D37;
+      border: 1px solid #1F5A51; padding: 6px 11px; border-radius: 999px; }
+
+    table { width: 100%; border-collapse: collapse; margin: 10px 0 20px; font-size: 15px; }
+    th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+    th { color: var(--mint); font-size: 13px; text-transform: uppercase; letter-spacing: .6px; }
+    td { color: #C9D6D2; }
+    .tablewrap { overflow-x: auto; }
+
+    .checklist { list-style: none; padding-left: 0; display: grid; gap: 10px;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); counter-reset: chk; }
+    .checklist li { position: relative; background: var(--card); border: 1px solid var(--line);
+      border-radius: 10px; padding: 13px 14px 13px 48px; font-size: 15px; margin: 0; }
+    .checklist li b { display: block; font-size: 15.5px; color: var(--ink); }
+    .checklist li span { color: var(--muted); font-size: 13.5px; }
+    .checklist li::before { counter-increment: chk; content: counter(chk); position: absolute; left: 11px; top: 12px;
+      width: 26px; height: 26px; border-radius: 8px; background: var(--teal-dark); color: #fff;
+      font-weight: 900; font-size: 13px; display: grid; place-items: center; }
+
+    .dot { display: inline-block; width: 12px; height: 12px; border-radius: 50%; margin-right: 4px; vertical-align: -1px; }
+    .dot.g { background: var(--gruen); } .dot.o { background: var(--orange); } .dot.r { background: var(--rot); }
+    .ampel { list-style: none; padding-left: 0 !important; }
+    .ampel li { padding: 12px 16px; border-radius: 10px; margin-bottom: 10px; background: var(--card);
+      border: 1px solid var(--line); border-left: 5px solid var(--muted); }
+    .ampel li.gr { border-left-color: var(--gruen); }
+    .ampel li.or { border-left-color: var(--orange); }
+    .ampel li.ro { border-left-color: var(--rot); }
+
+    .faq { border-top: 1px solid var(--line); margin-top: 8px; }
+    .faq details { border-bottom: 1px solid var(--line); }
+    .faq summary { cursor: pointer; padding: 16px 30px 16px 2px; font-weight: 800; font-size: 16.5px;
+      list-style: none; position: relative; color: var(--ink); }
+    .faq summary::-webkit-details-marker { display: none; }
+    .faq summary::after { content: '+'; position: absolute; right: 4px; top: 13px; font-size: 24px;
+      font-weight: 400; color: var(--teal); transition: transform .2s ease; }
+    .faq details[open] summary::after { transform: rotate(45deg); }
+    .faq details p { padding: 0 2px 18px; margin: 0; }
+
+    .cta { border-radius: 22px; padding: 32px 30px; margin: 40px 0 10px; color: #fff;
+      background: radial-gradient(520px 300px at 90% 0%, rgba(153,246,228,.30), transparent 60%),
+        linear-gradient(135deg, #0F766E 0%, #0D9488 50%, #14B8A6 100%); }
+    .cta .pill { display: inline-block; font-size: 12px; font-weight: 900; letter-spacing: 1.2px;
+      text-transform: uppercase; color: #ECFDF8; background: rgba(255,255,255,.16);
+      border: 1px solid rgba(255,255,255,.25); padding: 6px 14px; border-radius: 999px; }
+    .cta h3 { color: #fff; font-size: 22px; margin: 14px 0 8px; }
+    .cta p { color: rgba(236,253,248,.9); font-size: 15px; margin-bottom: 18px; }
+    .cta p b { color: #fff; }
+    .btn { display: inline-block; font-weight: 800; font-size: 15px; padding: 14px 26px; border-radius: 999px;
+      text-decoration: none; color: var(--teal-ink); background: #fff; margin: 0 8px 8px 0; }
+    .btn.line { background: transparent; color: #fff; border: 1.5px solid rgba(255,255,255,.6); }
+
+    .more { display: grid; gap: 10px; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); margin: 10px 0 20px; }
+    .more a { display: block; background: var(--card); border: 1px solid var(--line); border-radius: 10px;
+      padding: 13px 15px; text-decoration: none; color: var(--ink); font-weight: 700; font-size: 15px; }
+    .more a span { display: block; color: var(--muted); font-weight: 500; font-size: 13px; }
+
+    .disclaimer { background: var(--card); border: 1px solid var(--line); border-radius: 10px;
+      padding: 14px 16px; margin: 26px 0; font-size: 13.5px; color: var(--muted); }
+
+    .foot { background: #0B1210; color: var(--muted); margin-top: 50px; border-top: 1px solid var(--line); }
+    .foot-inner { display: flex; flex-wrap: wrap; gap: 18px; justify-content: space-between;
+      padding: 30px 0 46px; font-size: 14px; }
+    .foot a { color: #C9D6D2; }
+    .foot nav { display: flex; gap: 16px; flex-wrap: wrap; }
+  </style>
+</head>
+<body>
+  <div class="sitehead">
+    <div class="wrap">
+      <header>
+        <a href="index.html" class="logo"><img src="geruestdex-icon.png" alt="GerüstDex" /></a>
+        <a href="index.html" class="brand">Gerüst<b>Dex</b></a>
+        <a class="head-cta" href="https://play.google.com/store/apps/details?id=com.geruestdex.app" target="_blank" rel="noopener">App laden</a>
+      </header>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <article>
+      <p class="crumb"><a href="index.html">Start</a> › Ratgeber › Gerüstprüfung</p>
+      <div class="eyebrow">Ratgeber · Gerüstbau &amp; Baustelle</div>
+      <h1>Gerüstprüfung: Wer muss das Gerüst wann prüfen — <span class="hl">und was gehört ins Protokoll?</span></h1>
+      <p class="stand">Stand: Oktober 2026 · Lesezeit ca. 8 Minuten · Für Gerüstbauer, Dachdecker, Maler, Bauunternehmen und Bauleitung</p>
+
+      <p class="intro">
+        Bei kaum einem Arbeitsmittel ist die Verantwortung so verteilt wie beim Gerüst: Einer baut es auf,
+        mehrere Gewerke arbeiten darauf, und das Wetter verändert es über Nacht. Deshalb gibt es bei Gerüsten
+        <strong>nicht eine Prüfung, sondern mehrere — durch unterschiedliche Beteiligte</strong>. Dieser Ratgeber
+        erklärt, wer wann prüfen muss, welche Punkte dazugehören und warum die Dokumentation im Schadensfall
+        über die Haftung entscheidet.
+      </p>
+
+      <h2>Welche Vorschriften gelten für die Gerüstprüfung?</h2>
+      <p>
+        Ein Gerüst ist ein Arbeitsmittel im Sinne der <strong>Betriebssicherheitsverordnung (BetrSichV)</strong>.
+        Sie verlangt, dass Arbeitsmittel, deren Sicherheit von den Montagebedingungen abhängt, nach der Montage
+        und vor der ersten Verwendung geprüft werden — und erneut nach Ereignissen, die die Sicherheit
+        beeinträchtigen können. Konkretisiert wird das für Gerüste in der technischen Regel
+        <strong>TRBS 2121 Teil 1</strong> und der praxisnahen <strong>DGUV Information 201-011</strong>.
+      </p>
+      <div class="norms">
+        <span class="norm">BetrSichV</span>
+        <span class="norm">TRBS 2121-1 (Gerüste)</span>
+        <span class="norm">TRBS 1203 (befähigte Person)</span>
+        <span class="norm">DGUV Information 201-011</span>
+        <span class="norm">DIN EN 12811-1</span>
+      </div>
+      <p>
+        Die <strong>TRBS 2121-1</strong> regelt Bereitstellung und Benutzung von Gerüsten: Auf-, Um- und Abbau,
+        die Prüfungen, die Kennzeichnung und die Pflichten von Ersteller und Nutzer. Die
+        <strong>DIN EN 12811-1</strong> legt unter anderem die Last- und Breitenklassen fest, nach denen ein Gerüst
+        eingestuft und gekennzeichnet wird. Grundlage für jeden Aufbau ist außerdem die
+        <strong>Aufbau- und Verwendungsanleitung</strong> des Gerüstherstellers.
+      </p>
+
+      <h2>Drei Prüfanlässe — und wer jeweils verantwortlich ist</h2>
+
+      <div class="blatt">
+        <h3>1. Prüfung nach der Montage — durch den Gerüstersteller</h3>
+        <p style="margin-bottom:0">
+          Bevor ein Gerüst freigegeben wird, prüft eine <strong>befähigte Person des Gerüsterstellers</strong>, ob es
+          vollständig, standsicher und entsprechend der Aufbau- und Verwendungsanleitung beziehungsweise dem
+          Gerüstplan errichtet ist. Das Ergebnis wird in einem <strong>Prüfprotokoll</strong> festgehalten, das Gerüst
+          wird gekennzeichnet und an den Auftraggeber übergeben. Gleiches gilt nach jeder Änderung durch den Ersteller.
+        </p>
+      </div>
+
+      <div class="blatt b2">
+        <h3>2. Kontrolle vor der Benutzung — durch jeden Nutzer</h3>
+        <p style="margin-bottom:0">
+          Jeder Unternehmer, dessen Beschäftigte das Gerüst benutzen, ist selbst dafür verantwortlich, dass es
+          <strong>für seine Arbeiten geeignet und augenscheinlich sicher</strong> ist. Vor Arbeitsbeginn wird das Gerüst
+          deshalb durch eine fachkundige Person des Nutzers in Augenschein genommen: Passen Last- und Breitenklasse
+          zur Tätigkeit? Sind Beläge, Seitenschutz und Verankerung vollständig? Fehlt etwas, das ein anderes
+          Gewerk entfernt hat? Auf die Freigabe des Gerüstbauers allein darf sich der Nutzer nicht verlassen.
+        </p>
+      </div>
+
+      <div class="blatt b3">
+        <h3>3. Prüfung nach außergewöhnlichen Ereignissen</h3>
+        <p style="margin-bottom:0">
+          Nach Ereignissen, die die Sicherheit beeinträchtigen können, ist das Gerüst <strong>erneut durch eine
+          befähigte Person zu prüfen</strong>, bevor wieder darauf gearbeitet wird. Typische Anlässe sind
+          <strong>Sturm und Unwetter</strong>, Unfälle oder Anfahrschäden, längere Arbeitsunterbrechungen, Frost und
+          Tauwetter mit Einfluss auf die Gründung sowie Umbauten oder entfernte Bauteile.
+        </p>
+      </div>
+
+      <p>
+        <strong>Merksatz:</strong> Der Gerüstbauer haftet für das, was er übergibt. Der Nutzer haftet dafür, dass er
+        seine Leute nur auf ein Gerüst schickt, das in diesem Moment sicher ist. Beides lässt sich nur mit einer
+        dokumentierten Prüfung belegen.
+      </p>
+
+      <h2>Wer ist die „befähigte Person" für Gerüste?</h2>
+      <p>
+        Nach der <strong>TRBS 1203</strong> ist eine zur Prüfung befähigte Person, wer durch
+        <strong>Berufsausbildung, Berufserfahrung und zeitnahe berufliche Tätigkeit</strong> die nötigen
+        Fachkenntnisse besitzt. Für Gerüste heißt das in der Praxis: Kenntnisse der eingesetzten Gerüstsysteme
+        und ihrer Aufbau- und Verwendungsanleitungen, der Last- und Breitenklassen, der Verankerungs- und
+        Aussteifungsregeln sowie der einschlägigen Vorschriften. Häufig sind das Gerüstbauer-Kolonnenführer,
+        Gerüstbaumeister oder entsprechend geschulte Poliere. Die Qualifikation sollte schriftlich nachvollziehbar sein.
+      </p>
+
+      <h2>Last- und Breitenklassen: Passt das Gerüst zur Arbeit?</h2>
+      <p>
+        Ein häufiger Fehler bei der Nutzerkontrolle: Das Gerüst ist ordnungsgemäß aufgebaut, aber für die
+        geplante Arbeit zu schwach. Die Lastklassen nach DIN EN 12811-1 geben die zulässige gleichmäßig verteilte
+        Belastung der Gerüstlagen an:
+      </p>
+      <div class="tablewrap">
+        <table>
+          <thead><tr><th>Lastklasse</th><th>Flächenlast</th><th>Typischer Einsatz (Orientierung)</th></tr></thead>
+          <tbody>
+            <tr><td>LK 1</td><td>0,75 kN/m²</td><td>Inspektion, Arbeiten ohne Materiallagerung</td></tr>
+            <tr><td>LK 2</td><td>1,50 kN/m²</td><td>Leichte Arbeiten wie Anstrich, Verfugen</td></tr>
+            <tr><td>LK 3</td><td>2,00 kN/m²</td><td>Putz-, Maler- und Fassadenarbeiten mit geringer Materiallagerung</td></tr>
+            <tr><td>LK 4</td><td>3,00 kN/m²</td><td>Maurer- und Putzarbeiten mit Materiallagerung</td></tr>
+            <tr><td>LK 5</td><td>4,50 kN/m²</td><td>Schwere Arbeiten, z. B. Naturstein, Betonfertigteile</td></tr>
+            <tr><td>LK 6</td><td>6,00 kN/m²</td><td>Sehr schwere Arbeiten mit hoher Materiallagerung</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>
+        Maßgeblich sind die Angaben in der Kennzeichnung des konkreten Gerüsts und in der Aufbau- und
+        Verwendungsanleitung des Herstellers. Die Breitenklasse (z. B. W06, W09) gibt die nutzbare Belagbreite an.
+      </p>
+
+      <h2>Kennzeichnung: Was am Gerüst hängen muss</h2>
+      <p>
+        Ein fertiges, geprüftes Gerüst wird <strong>an den Zugängen deutlich sichtbar gekennzeichnet</strong>. Zur
+        Kennzeichnung gehören in der Regel der Gerüstersteller mit Kontaktdaten, die Gerüstart, Last- und
+        Breitenklasse, das Datum der Prüfung sowie gegebenenfalls Nutzungseinschränkungen. Gerüste oder
+        Gerüstbereiche, die noch nicht fertig oder gesperrt sind, werden mit dem Verbotszeichen
+        <strong>„Zutritt verboten"</strong> gekennzeichnet und gegen Betreten gesichert.
+      </p>
+
+      <h2>Die 12 Prüfpunkte bei der Gerüstprüfung</h2>
+      <p>
+        Die folgende Checkliste orientiert sich an TRBS 2121-1 und DGUV Information 201-011. Sie eignet sich für
+        die Prüfung nach der Montage ebenso wie für die Kontrolle durch den Nutzer und die Prüfung nach Sturm:
+      </p>
+      <ol class="checklist">
+        <li><b>Kennzeichnung / Freigabe</b><span>Kennzeichnung an den Zugängen vorhanden, Lastklasse passt zur Arbeit.</span></li>
+        <li><b>Gründung / Fußspindeln</b><span>Tragfähiger Untergrund, Fußplatten und Unterlagen, Spindelauszug zulässig.</span></li>
+        <li><b>Verankerung</b><span>Anker nach Raster der Aufbauanleitung vollständig, fest und nicht entfernt.</span></li>
+        <li><b>Beläge</b><span>Vollflächig, unbeschädigt, gegen Abheben und Verschieben gesichert, keine Lücken.</span></li>
+        <li><b>Seitenschutz (3-teilig)</b><span>Geländerholm, Zwischenholm und Bordbrett auf allen Arbeitslagen.</span></li>
+        <li><b>Aufstiege / Zugänge</b><span>Innenliegende Leitergänge oder Treppen sicher, Durchstiegsklappen geschlossen.</span></li>
+        <li><b>Diagonalen / Aussteifung</b><span>Vertikal- und Horizontaldiagonalen nach Aufbauanleitung vorhanden.</span></li>
+        <li><b>Wandabstand ≤ 30 cm</b><span>Größerer Abstand nur mit Innenseitenschutz oder Konsolen.</span></li>
+        <li><b>Ecken / Überbrückungen</b><span>Eckausbildung und Überbrückungsträger vollständig, Seitenschutz umlaufend.</span></li>
+        <li><b>Keine eigenmächtigen Änderungen</b><span>Keine entfernten Anker, Beläge oder Geländer durch andere Gewerke.</span></li>
+        <li><b>Elektrische Leitungen / Anlagen</b><span>Sicherheitsabstände zu Freileitungen, Abschaltung oder Abdeckung.</span></li>
+        <li><b>Umgebung / Schutz Dritter</b><span>Schutzdach oder -netz, Absperrung des Verkehrsbereichs, Anfahrschutz.</span></li>
+      </ol>
+
+      <h2>Was tun bei Mängeln? Das Ampelverfahren</h2>
+      <ul class="ampel">
+        <li class="gr"><span class="dot g"></span><strong>Grün — beobachten:</strong> geringfügige Auffälligkeit ohne Einfluss auf die Sicherheit. Das Gerüst bleibt nutzbar, der Punkt wird bei der nächsten Kontrolle erneut angesehen.</li>
+        <li class="or"><span class="dot o"></span><strong>Orange — Bereich sperren:</strong> ein Mangel in einem abgrenzbaren Bereich, zum Beispiel ein fehlendes Bordbrett in einem Feld. Der Bereich wird gesperrt und gekennzeichnet, bis der Gerüstersteller den Mangel behoben hat.</li>
+        <li class="ro"><span class="dot r"></span><strong>Rot — Gerüst sofort sperren:</strong> die Standsicherheit oder der Absturzschutz ist insgesamt in Frage gestellt, etwa durch fehlende Anker nach einem Sturm. Das Gerüst darf nicht mehr betreten werden, bis es erneut geprüft und freigegeben ist.</li>
+      </ul>
+      <p>
+        Wichtig ist, dass die Sperrung <strong>sichtbar am Gerüst und nachweisbar in der Dokumentation</strong> erfolgt.
+        Mängel, die ein Nutzer feststellt, behebt nicht er selbst, sondern meldet sie dem Gerüstersteller —
+        eigenmächtige Umbauten sind eine der häufigsten Unfallursachen.
+      </p>
+
+      <h2>Dokumentation: Das gehört ins Gerüstprüfprotokoll</h2>
+      <p>
+        Was im Schadensfall nicht belegt werden kann, gilt als nicht geschehen. Ein belastbares Prüfprotokoll
+        enthält mindestens:
+      </p>
+      <ul>
+        <li>Baustelle, Gerüstabschnitt und Gerüstart,</li>
+        <li>Prüfanlass (nach Montage, vor Benutzung, nach Sturm oder Änderung),</li>
+        <li>Datum, Uhrzeit und Name der prüfenden Person,</li>
+        <li>Ergebnis je Prüfpunkt mit festgestellten Mängeln, idealerweise mit Fotos,</li>
+        <li>getroffene Maßnahmen (Freigabe, Teilsperrung, Sperrung, Meldung an den Ersteller),</li>
+        <li>Freigabe nach Mängelbeseitigung.</li>
+      </ul>
+
+      <h3>Haftung im Schadensfall</h3>
+      <p>
+        Nach einem Absturz fragen Berufsgenossenschaft und Ermittlungsbehörden zuerst: Wer hat das Gerüst
+        wann zuletzt geprüft, und was wurde dabei festgestellt? Ein Protokoll vom Tag der Montage hilft wenig,
+        wenn in der Nacht davor ein Sturm über die Baustelle gezogen ist. Gerade die
+        <strong>Kontrolle vor der Benutzung und die Prüfung nach Unwetter</strong> sind in der Praxis die Lücken,
+        an denen Verantwortliche im Ernstfall scheitern.
+      </p>
+
+      <div class="disclaimer">
+        Hinweis: Dieser Ratgeber gibt die genannten Vorschriften allgemein verständlich wieder und ersetzt keine
+        Rechtsberatung. Maßgeblich sind die aktuellen Fassungen von BetrSichV, TRBS 2121-1 und DGUV Information
+        201-011, die Aufbau- und Verwendungsanleitung des Herstellers sowie die Gefährdungsbeurteilung. In
+        Österreich und der Schweiz gelten eigene Vorschriften (z. B. BauV bzw. Bauarbeitenverordnung).
+      </div>
+
+      <div class="eyebrow">Häufige Fragen</div>
+      <h2>FAQ zur Gerüstprüfung</h2>
+      <div class="faq">
+        <details>
+          <summary>Wer muss ein Gerüst prüfen?</summary>
+          <p>Nach der Montage prüft eine befähigte Person des Gerüsterstellers das Gerüst und gibt es frei. Zusätzlich muss jeder Unternehmer, dessen Beschäftigte das Gerüst nutzen, vor der Benutzung durch eine fachkundige Person kontrollieren lassen, ob es für die eigenen Arbeiten geeignet und augenscheinlich sicher ist. Nach außergewöhnlichen Ereignissen wie Sturm ist eine erneute Prüfung durch eine befähigte Person nötig.</p>
+        </details>
+        <details>
+          <summary>Wie oft muss ein Gerüst geprüft werden?</summary>
+          <p>Es gibt keine feste Frist in Wochen. Geprüft wird nach der Montage und nach jeder Änderung, vor der Benutzung durch jeden Nutzer sowie nach Ereignissen, die die Sicherheit beeinträchtigen können — etwa Sturm, Unfall, Frost oder längere Unterbrechung. Bei länger stehenden Gerüsten legen viele Betriebe zusätzlich regelmäßige Kontrollintervalle in der Gefährdungsbeurteilung fest.</p>
+        </details>
+        <details>
+          <summary>Muss die Gerüstprüfung dokumentiert werden?</summary>
+          <p>Ja. Die Prüfung nach der Montage wird in einem Prüfprotokoll festgehalten und das Gerüst gekennzeichnet. Auch die Kontrollen der Nutzer und die Prüfungen nach außergewöhnlichen Ereignissen sollten schriftlich mit Datum, Prüfer, Ergebnis und Maßnahmen dokumentiert werden, weil sie im Schadensfall der einzige Nachweis sind.</p>
+        </details>
+        <details>
+          <summary>Was muss auf der Gerüstkennzeichnung stehen?</summary>
+          <p>Üblich sind der Gerüstersteller mit Kontaktdaten, die Gerüstart, Last- und Breitenklasse, das Prüfdatum und eventuelle Nutzungseinschränkungen. Die Kennzeichnung wird gut sichtbar an den Zugängen angebracht. Nicht fertige oder gesperrte Bereiche erhalten das Verbotszeichen „Zutritt verboten".</p>
+        </details>
+        <details>
+          <summary>Darf ich einen fehlenden Anker oder ein Geländer selbst ersetzen?</summary>
+          <p>Nein, nicht eigenmächtig. Änderungen am Gerüst darf nur der Gerüstersteller oder eine von ihm beauftragte fachkundige Person vornehmen, anschließend ist eine erneute Prüfung erforderlich. Als Nutzer sperrst du den betroffenen Bereich, meldest den Mangel und dokumentierst beides.</p>
+        </details>
+        <details>
+          <summary>Muss nach einem Sturm wirklich neu geprüft werden?</summary>
+          <p>Ja. Sturm, Unwetter und starker Wind können Anker lösen, Beläge verschieben oder Planen und Netze zur Windangriffsfläche machen. Vor der Wiederaufnahme der Arbeiten ist das Gerüst durch eine befähigte Person zu prüfen. Genau diese Prüfung fehlt nach Unfällen besonders häufig in der Dokumentation.</p>
+        </details>
+      </div>
+
+      <div class="cta">
+        <span class="pill">Prüfung dokumentieren</span>
+        <h3>Jede Gerüstprüfung in 60 Sekunden — gerichtsfest</h3>
+        <p>
+          <b>GerüstDex</b> führt dich durch die 12 Prüfpunkte nach TRBS 2121-1, stuft Mängel per Ampel ein und
+          speichert jede Prüfung unveränderlich mit GPS-Stempel, Uhrzeit und Beweisfotos. Ein Tipp erzeugt den
+          PDF-Prüfbericht für Auftraggeber, SiGeKo oder BG.
+        </p>
+        <a class="btn" href="https://play.google.com/store/apps/details?id=com.geruestdex.app" target="_blank" rel="noopener">Kostenlos bei Google Play</a>
+        <a class="btn line" href="index.html#funktionen">Funktionen ansehen</a>
+      </div>
+
+      <div class="eyebrow">Weiterlesen</div>
+      <div class="more">
+        <a href="https://gurtdex.dexware.app/ratgeber-psaga-pruefung.html">PSA gegen Absturz prüfen<span>Gurte, Seile, Falldämpfer — Fristen &amp; Sachkunde</span></a>
+        <a href="https://leiterdex.dexware.app/ratgeber-leiterpruefung.html">Leitern &amp; Tritte prüfen<span>Fristen, befähigte Person, Dokumentation</span></a>
+        <a href="https://dexware.app/ratgeber.html">Alle Prüf-Ratgeber<span>Übersicht der Dexware-Ratgeber</span></a>
+      </div>
+    </article>
+  </div>
+
+  <div class="foot">
+    <div class="wrap">
+      <div class="foot-inner">
+        <span>© 2026 GerüstDex</span>
+        <nav>
+          <a href="index.html">Start</a>
+          <a href="ratgeber-geruestpruefung.html">Ratgeber</a>
+          <a href="impressum.html">Impressum</a>
+          <a href="datenschutz.html">Datenschutz</a>
+          <a href="konto-loeschung.html">Konto löschen</a>
+          <a href="mailto:support@dexware.app?subject=Ger%C3%BCstDex%20Support">Support</a>
+        </nav>
+      </div>
+    </div>
+  </div>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {"@type": "Question", "name": "Wer muss ein Gerüst prüfen?", "acceptedAnswer": {"@type": "Answer", "text": "Nach der Montage prüft eine befähigte Person des Gerüsterstellers das Gerüst und gibt es frei. Zusätzlich muss jeder Unternehmer, dessen Beschäftigte das Gerüst nutzen, vor der Benutzung durch eine fachkundige Person kontrollieren lassen, ob es für die eigenen Arbeiten geeignet und augenscheinlich sicher ist. Nach außergewöhnlichen Ereignissen wie Sturm ist eine erneute Prüfung durch eine befähigte Person nötig."}},
+      {"@type": "Question", "name": "Wie oft muss ein Gerüst geprüft werden?", "acceptedAnswer": {"@type": "Answer", "text": "Es gibt keine feste Frist in Wochen. Geprüft wird nach der Montage und nach jeder Änderung, vor der Benutzung durch jeden Nutzer sowie nach Ereignissen, die die Sicherheit beeinträchtigen können — etwa Sturm, Unfall, Frost oder längere Unterbrechung. Bei länger stehenden Gerüsten legen viele Betriebe zusätzlich regelmäßige Kontrollintervalle in der Gefährdungsbeurteilung fest."}},
+      {"@type": "Question", "name": "Muss die Gerüstprüfung dokumentiert werden?", "acceptedAnswer": {"@type": "Answer", "text": "Ja. Die Prüfung nach der Montage wird in einem Prüfprotokoll festgehalten und das Gerüst gekennzeichnet. Auch die Kontrollen der Nutzer und die Prüfungen nach außergewöhnlichen Ereignissen sollten schriftlich mit Datum, Prüfer, Ergebnis und Maßnahmen dokumentiert werden, weil sie im Schadensfall der einzige Nachweis sind."}},
+      {"@type": "Question", "name": "Was muss auf der Gerüstkennzeichnung stehen?", "acceptedAnswer": {"@type": "Answer", "text": "Üblich sind der Gerüstersteller mit Kontaktdaten, die Gerüstart, Last- und Breitenklasse, das Prüfdatum und eventuelle Nutzungseinschränkungen. Die Kennzeichnung wird gut sichtbar an den Zugängen angebracht. Nicht fertige oder gesperrte Bereiche erhalten das Verbotszeichen Zutritt verboten."}},
+      {"@type": "Question", "name": "Darf ich einen fehlenden Anker oder ein Geländer selbst ersetzen?", "acceptedAnswer": {"@type": "Answer", "text": "Nein, nicht eigenmächtig. Änderungen am Gerüst darf nur der Gerüstersteller oder eine von ihm beauftragte fachkundige Person vornehmen, anschließend ist eine erneute Prüfung erforderlich. Als Nutzer sperrst du den betroffenen Bereich, meldest den Mangel und dokumentierst beides."}},
+      {"@type": "Question", "name": "Muss nach einem Sturm wirklich neu geprüft werden?", "acceptedAnswer": {"@type": "Answer", "text": "Ja. Sturm, Unwetter und starker Wind können Anker lösen, Beläge verschieben oder Planen und Netze zur Windangriffsfläche machen. Vor der Wiederaufnahme der Arbeiten ist das Gerüst durch eine befähigte Person zu prüfen. Genau diese Prüfung fehlt nach Unfällen besonders häufig in der Dokumentation."}}
+    ]
+  }
+  </script>
+</body>
+</html>
