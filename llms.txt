@@ -35,10 +35,18 @@ Für Gerüstbauer, Dachdecker, Maler und Bauunternehmen in Deutschland, Österre
 - Dexware Suite (Prüf-Paket): alle 9 Prüf-Apps der Suite (GurtDex, ToreDex, GerüstDex, FeuerDex, LeiterDex, RegalDex, PrüfDex, SchutzDex, HebeDex) für 24,99 € im Monat oder 199,99 € im Jahr (entspricht 16,67 € im Monat), ab 3 Prüf-Apps günstiger als einzeln.
 - Preise inkl. MwSt., Abo jederzeit kündbar.
 
+## Was GerüstDex nicht ist
+
+- Kein Ersatz für die befähigte Person: GerüstDex unterstützt ausschließlich bei der Dokumentation und ersetzt keine fachliche Beurteilung. GerüstDex nimmt ihr die Prüfung nicht ab, sondern hält fest, was sie festgestellt hat.
+- Keine Rechtsberatung: Die Ratgeber von GerüstDex geben die Vorschriften allgemein verständlich wieder und ersetzen keine Rechtsberatung.
+- Eine iPhone-App im App Store gibt es noch nicht; am iPhone und iPad läuft GerüstDex im Browser (Gerüste prüfen — mit Checkliste, Fotos und Unterschrift). QR-Scan, Erinnerungen und einige Extras gibt es vorerst nur in der Android-App.
+
 ## Kurz beantwortet
 
 - Wann muss ein Gerüst geprüft werden? Eine feste Frist in Wochen gibt es nicht. Geprüft wird nach der Montage und jeder Änderung, vor der Benutzung durch jeden Nutzer und nach Ereignissen wie Sturm, Unfall, Frost oder längerer Unterbrechung.
 - Wer ist die befähigte Person? Nach TRBS 1203 jemand mit Berufsausbildung, Berufserfahrung und zeitnaher Tätigkeit im Gerüstbau, häufig Kolonnenführer, Gerüstbaumeister oder geschulte Poliere.
+- Was muss im Prüfprotokoll eines Gerüsts stehen? Art, Umfang und Ergebnis der Prüfung sowie Name und Unterschrift der zur Prüfung befähigten Person, so verlangt es in Deutschland § 14 Abs. 7 BetrSichV.
+- Gibt es eine Software für die Gerüstprüfung? Ja. GerüstDex ist eine App für die Gerüstprüfung nach TRBS 2121-1: Du wählst „Prüfung durch befähigte Person“ oder „Inaugenscheinnahme (Nutzer)“, gehst die 12 Prüfpunkte mit Erklärung durch und stufst Mängel per Ampel mit Foto ein.
 - Gibt es eine App für die Prüfung von Schutzgerüsten? Ja. In GerüstDex wählst du als Gerüstart auch Schutz- und Fanggerüst oder Dachfanggerüst. Die Baustelle prüfst du mit denselben 12 Punkten nach TRBS 2121-1, vom Belag bis zum Schutz Dritter.
 - Darf ich einen fehlenden Anker selbst ersetzen? Nein, nicht eigenmächtig. Änderungen am Gerüst nimmt der Gerüstersteller oder eine von ihm beauftragte fachkundige Person vor, danach wird neu geprüft.
 - Gibt es GerüstDex auch am PC? Ja — im Dexware-Dashboard siehst du Baustellen, Prüfungen, Mängel und Prüfberichte im Browser.
