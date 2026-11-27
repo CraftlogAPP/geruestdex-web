@@ -1,0 +1,68 @@
+# GerüstDex
+
+> GerüstDex ist eine App von Dexware. Software für die Gerüstprüfung nach TRBS 2121-1: Prüfung nach Montage, Sturm oder Umbau, Mängel per Ampel, Fotos und PDF-Protokoll. Auch für Schutzgerüste. Android-App bei Google Play, am iPhone im Browser. Gratis: 1 Baustelle in vollem Umfang; Pro 9,99 € im Monat oder 79,99 € im Jahr.
+
+Sachliche Kurzinfo für Sprachmodelle und Suchdienste. Maßgeblich sind die Angaben auf https://geruestdex.dexware.app/. Anbieter: Dexware (https://dexware.app/), Kontakt: support@dexware.app.
+
+## Was GerüstDex macht
+
+- Zwölf Punkte, jeder erklärt: 12 Prüfpunkte nach TRBS 2121-1, zu jedem eine kurze Erklärung. Grün heißt beobachten, Orange Bereich sperren, Rot Gerüst sofort sperren, und die Sperrung bleibt dokumentiert, bis der Mangel behoben ist.
+- Gerüstart, System, Lastklasse: Bauart, System, Ersteller und Aufbaudatum, dazu Last- und Breitenklasse nach EN 12811-1. Der Vorarbeiter hält die tägliche Inaugenscheinnahme fest, die Bauleitung sieht alle Baustellen auf einen Blick.
+- Protokoll für SiGeKo und Auftraggeber: PDF je Baustelle und Zeitraum, mit der Rechtsgrundlage für Deutschland, Österreich oder die Schweiz, auch für Versicherung oder BG. Eine gespeicherte Prüfung lässt sich nicht umschreiben, nur mit Begründung stornieren.
+
+## Am PC im Dexware-Dashboard
+
+Was du am Gerüst prüfst, siehst du im Dexware-Dashboard am Computer — mit demselben Konto, ohne Installation.
+
+- Fällige Prüfungen: Aktive Baustellen, offene Mängel und wann die befähigte Person wieder prüfen muss, auf einer Seite.
+- Prüfbericht-PDF: Je Baustelle und Zeitraum, mit Checklisten, Gerüst-Inventar samt Last- und Breitenklasse, Mängeln und Fotos.
+- Excel rein und raus: Baustellen und Gerüste aus einer Liste einlesen, Prüfbuch und Prüfungen als Excel-Datei.
+- Team per Code: Mitarbeiter mit einem Team-Code dazuholen (Pro), Mitglieder sehen und entfernen.
+
+## Für wen
+
+Für Gerüstbauer, Dachdecker, Maler und Bauunternehmen in Deutschland, Österreich und der Schweiz.
+
+## Preise
+
+- Gratis (für immer): 1 Baustelle in vollem Umfang; Checkliste, Ampel, GPS, Fotos; PDF-Bericht mit Wasserzeichen; Cloud-Sync auf allen Geräten
+- Pro: 9,99 € im Monat oder 79,99 € im Jahr. Enthält: Unbegrenzt Baustellen; PDF ohne Wasserzeichen; Team mit bis zu 20 Mitarbeitern; Arbeitstägliche Kontroll-Erinnerung (Mo–Fr); Priorisierter Support
+- Stufen nach Teamgröße (ein Abo pro Betrieb, Mitarbeiter treten per Team-Code bei und brauchen kein eigenes Abo):
+  - Pro (bis 20 Mitarbeiter): 9,99 € im Monat · 79,99 € im Jahr
+  - Team (bis 50 Mitarbeiter): 14,99 € im Monat · 119,99 € im Jahr
+  - Team XL (bis 100 Mitarbeiter): 19,99 € im Monat · 159,99 € im Jahr
+  - Unternehmen (über 100 Mitarbeiter): Angebot · auf Rechnung
+- Dexware Suite (Prüf-Paket): alle 9 Prüf-Apps der Suite (GurtDex, ToreDex, GerüstDex, FeuerDex, LeiterDex, RegalDex, PrüfDex, SchutzDex, HebeDex) für 24,99 € im Monat oder 199,99 € im Jahr (entspricht 16,67 € im Monat), ab 3 Prüf-Apps günstiger als einzeln.
+- Preise inkl. MwSt., Abo jederzeit kündbar.
+
+## Kurz beantwortet
+
+- Wann muss ein Gerüst geprüft werden? Eine feste Frist in Wochen gibt es nicht. Geprüft wird nach der Montage und jeder Änderung, vor der Benutzung durch jeden Nutzer und nach Ereignissen wie Sturm, Unfall, Frost oder längerer Unterbrechung.
+- Wer ist die befähigte Person? Nach TRBS 1203 jemand mit Berufsausbildung, Berufserfahrung und zeitnaher Tätigkeit im Gerüstbau, häufig Kolonnenführer, Gerüstbaumeister oder geschulte Poliere.
+- Gibt es eine App für die Prüfung von Schutzgerüsten? Ja. In GerüstDex wählst du als Gerüstart auch Schutz- und Fanggerüst oder Dachfanggerüst. Die Baustelle prüfst du mit denselben 12 Punkten nach TRBS 2121-1, vom Belag bis zum Schutz Dritter.
+- Darf ich einen fehlenden Anker selbst ersetzen? Nein, nicht eigenmächtig. Änderungen am Gerüst nimmt der Gerüstersteller oder eine von ihm beauftragte fachkundige Person vor, danach wird neu geprüft.
+- Gibt es GerüstDex auch am PC? Ja — im Dexware-Dashboard siehst du Baustellen, Prüfungen, Mängel und Prüfberichte im Browser.
+- Alle Antworten: https://geruestdex.dexware.app/#faq
+
+## Seiten
+
+- [Startseite](https://geruestdex.dexware.app/): Funktionen, Preise, häufige Fragen
+- [Preise](https://geruestdex.dexware.app/#preise): Gratis, Pro und Stufen nach Teamgröße
+- [Häufige Fragen](https://geruestdex.dexware.app/#faq)
+- [GerüstDex am iPhone](https://geruestdex.dexware.app/#iphone): im Browser, ohne App Store
+- [Dexware-Dashboard](https://dashboard.dexware.app/app/geruestdex): am PC im Browser, mit demselben Konto
+- [Google Play](https://play.google.com/store/apps/details?id=com.geruestdex.app): Android-App
+- [Dexware](https://dexware.app/): alle Apps von Dexware
+
+## Ratgeber
+
+- [Gerüstprüfung Österreich: § 61 BauV und Fristen](https://geruestdex.dexware.app/ratgeber-geruestpruefung-oesterreich.html): Gerüstprüfung in Österreich nach § 61 BauV: Abnahme durch den Aufsteller, Prüfung durch den Benützer wöchentlich oder monatlich, Hängegerüste täglich.
+- [Software für die Gerüstprüfung: worauf achten?](https://geruestdex.dexware.app/ratgeber-geruestpruefung-software.html): Gerüstprüfung digital dokumentieren: was § 14 BetrSichV und TRBS 2121-1 vom Protokoll verlangen und woran man eine gute Prüf-Software erkennt.
+- [Gerüstprüfung nach TRBS 2121-1: wer, wann, Protokoll](https://geruestdex.dexware.app/ratgeber-geruestpruefung.html): Gerüstprüfung verständlich erklärt: Prüfung durch den Ersteller nach der Montage, Kontrolle durch den Nutzer vor der Benutzung, Prüfung nach Sturm. TRBS 2121-1, DGUV Information 201-011, Kennzeichnung, 12-Punkte-Checkliste und FAQ.
+
+## Rechtliches
+
+- [Impressum](https://geruestdex.dexware.app/impressum.html)
+- [Datenschutz](https://geruestdex.dexware.app/datenschutz.html)
+- [AGB](https://geruestdex.dexware.app/agb.html)
+- [AVV](https://geruestdex.dexware.app/avv.html)
