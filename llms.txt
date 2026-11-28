@@ -66,7 +66,7 @@ Für Gerüstbauer, Dachdecker, Maler und Bauunternehmen in Deutschland, Österre
 
 - [Gerüstprüfung Österreich: § 61 BauV und Fristen](https://geruestdex.dexware.app/ratgeber-geruestpruefung-oesterreich.html): Gerüstprüfung in Österreich nach § 61 BauV: Abnahme durch den Aufsteller, Prüfung durch den Benützer wöchentlich oder monatlich, Hängegerüste täglich.
 - [Software für die Gerüstprüfung: worauf achten?](https://geruestdex.dexware.app/ratgeber-geruestpruefung-software.html): Gerüstprüfung digital dokumentieren: was § 14 BetrSichV und TRBS 2121-1 vom Protokoll verlangen und woran man eine gute Prüf-Software erkennt.
-- [Gerüstprüfung nach TRBS 2121-1: wer, wann, Protokoll](https://geruestdex.dexware.app/ratgeber-geruestpruefung.html): Gerüstprüfung verständlich erklärt: Prüfung durch den Ersteller nach der Montage, Kontrolle durch den Nutzer vor der Benutzung, Prüfung nach Sturm. TRBS 2121-1, DGUV Information 201-011, Kennzeichnung, 12-Punkte-Checkliste und FAQ.
+- [Gerüstprüfung nach TRBS 2121-1: wer, wann, Protokoll](https://geruestdex.dexware.app/ratgeber-geruestpruefung.html): Gerüstprüfung: Prüfung durch den Ersteller nach der Montage, Kontrolle durch den Nutzer, Prüfung nach Sturm. TRBS 2121-1, Kennzeichnung, Checkliste.
 
 ## Rechtliches
 
